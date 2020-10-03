@@ -1,5 +1,5 @@
 # Notebook App
 
-## Simple note list CRUD.
+## Simple note app. Create and Read notes.
 
 ### Type "npm start" to initiate
