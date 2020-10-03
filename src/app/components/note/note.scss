@@ -1,0 +1,50 @@
+.note-card {
+    box-shadow: 0 0 12px rgba(0,0,0,.1);
+    margin: 16px;
+
+    transition: all 0.3s ease 0s;
+    &:hover {
+        margin-top: 22px;
+        transform: scale(1.03) translateY(-8px);
+        box-shadow: 0 4px 10px rgba(0,0,0,.4);
+    }
+}
+
+.note-wrapper {    
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.note-info {
+    min-width: 120px;
+    background-color: #6D9CAB;
+    color: #fff;
+    padding: 32px;
+    word-break: break-all;
+    span {
+        display: block;
+    }
+    flex: 1;
+}
+
+.note-title {
+    margin-bottom: 8px;
+}
+
+.note-content {
+    min-width: 200px;
+    color: #4B6269;
+    padding: 16px 16px 32px 32px;
+    line-height: 1.5;
+    flex: 4;
+    p {
+        word-break: break-all;
+    }
+    .delete-one {
+        width: 24px;
+        height: 24px;
+        text-align: center;
+        margin-left: auto;
+    }
+}
